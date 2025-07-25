@@ -10,7 +10,7 @@ npm start
 ## Screenshots
 
 ### Main Interface
-![Main Interface](./screenshots/Before-Filter-Screenshot.png)
+![Main Interface](./screenshots/Before-Filter-Screenshot.PNG)
 
 ### Search Functionality
-![Search Functionality](./screenshots/After-Filter-Screenshot.png)
+![Search Functionality](./screenshots/After-Filter-Screenshot.PNG)
