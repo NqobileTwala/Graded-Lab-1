@@ -10,16 +10,16 @@ function SearchBar({
     <div>
       <input
         type="text"
-        placeholder="Search by name"
+        placeholder="Search..."
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
-        style={{ marginBottom: "10px", display: "block" }}
+        style={{ padding: "5px", marginBottom: "20px", display: "block", borderRadius: "5px" }}
       />
 
       <select
         value={selectedCategory}
         onChange={(e) => setSelectedCategory(e.target.value)}
-        style={{ marginBottom: "10px", display: "block" }}
+        style={{ marginBottom: "20px", display: "block", borderRadius: "5px" }}
       >
         <option value="All">All</option>
         <option value="Clothing">Clothing</option>
