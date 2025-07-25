@@ -13,13 +13,24 @@ function SearchBar({
         placeholder="Search..."
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
-        style={{ padding: "5px", marginBottom: "20px", display: "block", borderRadius: "5px" }}
+        style={{
+          padding: "5px",
+          marginBottom: "20px",
+          display: "block",
+          borderRadius: "5px",
+          backgroundColor: "beige",
+        }}
       />
 
       <select
         value={selectedCategory}
         onChange={(e) => setSelectedCategory(e.target.value)}
-        style={{ marginBottom: "20px", display: "block", borderRadius: "5px" }}
+        style={{
+          marginBottom: "20px",
+          display: "block",
+          borderRadius: "5px",
+          backgroundColor: "beige",
+        }}
       >
         <option value="All">All</option>
         <option value="Clothing">Clothing</option>

@@ -64,8 +64,14 @@ function App() {
   });
 
   return (
-    <div style={{ padding: "20px", fontFamily: "cursive" }}>
-      <h1 style={{textDecoration: "underline"}}>Product catalog</h1>
+    <div
+      style={{
+        padding: "20px",
+        fontFamily: "cursive",
+        backgroundColor: "lightblue",
+      }}
+    >
+      <h1 style={{ textDecoration: "underline" }}>Product catalog</h1>
 
       <SearchBar
         searchText={searchText}
