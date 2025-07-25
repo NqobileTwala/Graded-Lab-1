@@ -58,7 +58,7 @@ function App() {
       .toLowerCase()
       .includes(searchText.toLowerCase());
     const categoryMatch =
-      selectedCategory == "All" || product.category == selectedCategory;
+      selectedCategory === "All" || product.category === selectedCategory;
     const stockMatch = !inStockOnly || product.inStock;
     return nameMatch && categoryMatch && stockMatch;
   });

@@ -1,7 +1,7 @@
 import ProductItem from "./productItem";
 
 function ProductList({ products }) {
-  if (products.length == 0) {
+  if (products.length === 0) {
     return <p>No Products Found!</p>;
   }
 
